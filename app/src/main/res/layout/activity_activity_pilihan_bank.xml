@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.salsabilla.appatm_ocha.Activity_pilihanBank">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Pilihan Transaksi"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnceksaldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="50dp"
+        android:text="Cek Saldo" />
+
+    <Button
+        android:id="@+id/btnsetor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnceksaldo"
+        android:layout_alignStart="@+id/btnceksaldo"
+        android:layout_below="@+id/btnceksaldo"
+        android:text="Penyetoran" />
+
+    <Button
+        android:id="@+id/btntarik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnceksaldo"
+        android:layout_alignStart="@+id/btnsetor"
+        android:layout_below="@+id/btnsetor"
+        android:text="Penarikan" />
+
+    <Button
+        android:id="@+id/btntransfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btntarik"
+        android:layout_alignStart="@+id/btntarik"
+        android:layout_below="@+id/btntarik"
+        android:text="Transfer" />
+
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btntransfer"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/btntransfer"
+        android:text="Exit" />
+</RelativeLayout>
